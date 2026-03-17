@@ -14,7 +14,7 @@
 clear; clc; close all;
 rng(11);
 
-R_mc = 100;   % MC repetitions
+R_mc = 10000;   % MC repetitions
 
 %% -------------------------
 % Observation sizes + MC
