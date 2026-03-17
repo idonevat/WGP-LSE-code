@@ -100,6 +100,6 @@ lgd = legend(hLegend, ...
 
 lgd.Units = 'normalized';
 lgd.Position = [0.15 -0.08 0.6 0.07];
-
+pause(1)
 exportgraphics(gcf, ['perfect_match_all.png'], 'Resolution', 300);
 
